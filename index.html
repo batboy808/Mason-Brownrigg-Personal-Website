@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mason Brownrigg">
+    <meta name="description" content = "Mason Brownrigg's professional website">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <title>Mason Brownrigg</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="static/script.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload = "addYear()">
+    <header>
+        <h1 id="webname">Mason Brownrigg</h1>
+        <nav id="myTopnav" class = "topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="views/cv.html">CV</a>
+            <a href="views/contact.html">Contact Me</a>
+            <a href="views/fun.html">For Fun</a>
+            <a href="javascript:void(0);" class= "icon">
+                <i class = "fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2 id= "greeting"></h2>
+        <img class = "classA" src="static/picture.jpeg" alt="Mason Headshot" width = "350px">
+        <div class = "classA">
+            <span id ="shortIntro">I am a reliable Information Systems student
+                that works well in team settings and always strives to 
+                accomplish complex tasks. I enjoy working with computer 
+                software and can provide excellent written and verbal 
+                communication skills, analytic skills, and professionalism 
+                to any workplace.</span>
+            <span id = "readMore">
+                read more...
+            </span>
+            <span id = "longIntro"> I have developed numerous technical skills that include 
+                network support, dataflow, application administration, 
+                equipment management, cloud-based computing, 
+                software development, and hardware support.</span>
+            <span id = "readLess">
+                read less
+            </span>
+            <!-- <p id= "intro">I am a reliable Information Systems student
+                that works well in team settings and always strives to 
+                accomplish complex tasks. I enjoy working with computer 
+                software and can provide excellent written and verbal 
+                communication skills, analytic skills, and professionalism 
+                to any workplace. Throughout my professional career, 
+                I have developed numerous technical skills that include 
+                network support, dataflow, application administration, 
+                equipment management, cloud-based computing, 
+                software development, and hardware support.</p> -->
+        </div>  
+    </div>
+    <footer>
+        <p id = "copyYear">Mason Brownrigg &copy</p>
+    </footer>
+    
+</body>
+</html>
